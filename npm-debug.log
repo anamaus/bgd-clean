@@ -1,0 +1,267 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'less' ]
+2 info using npm@2.7.3
+3 info using node@v0.12.0
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 silly cache add args [ 'less', null ]
+6 verbose cache add spec less
+7 silly cache add parsed spec { raw: 'less',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'less',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: '*',
+7 silly cache add   type: 'range' }
+8 verbose addNamed less@*
+9 silly addNamed semver.valid null
+10 silly addNamed semver.validRange *
+11 silly addNameRange { name: 'less', range: '*', hasData: false }
+12 silly mapToRegistry name less
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/less
+16 verbose addNameRange registry:https://registry.npmjs.org/less not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/less
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 10:17:25 AM
+20 verbose request id a9196eae092bcba4
+21 http request GET https://registry.npmjs.org/less
+22 http 200 https://registry.npmjs.org/less
+23 silly get cb [ 200,
+23 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly get     etag: '"EF6TC0V08TZSBH8G1IOAC49MP"',
+23 silly get     'content-type': 'application/json',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     'content-length': '90813',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Thu, 07 May 2015 08:17:26 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '46',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-fra1229-FRA',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '2',
+23 silly get     'x-timer': 'S1430986646.017878,VS0,VE0',
+23 silly get     vary: 'Accept' } ]
+24 verbose get saving less to C:\Users\Ana\AppData\Roaming\npm-cache\registry.npmjs.org\less\.cache.json
+25 verbose getCacheStat cache creation not in flight; initializing
+26 verbose makeCacheDir UID & GID are irrelevant on win32
+27 silly addNameRange number 2 { name: 'less', range: '*', hasData: true }
+28 silly addNameRange versions [ 'less',
+28 silly addNameRange   [ '1.0.10',
+28 silly addNameRange     '1.0.11',
+28 silly addNameRange     '1.0.14',
+28 silly addNameRange     '1.0.18',
+28 silly addNameRange     '1.0.19',
+28 silly addNameRange     '1.0.21',
+28 silly addNameRange     '1.0.32',
+28 silly addNameRange     '1.0.36',
+28 silly addNameRange     '1.0.5',
+28 silly addNameRange     '1.0.40',
+28 silly addNameRange     '1.0.41',
+28 silly addNameRange     '1.0.44',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '1.1.1',
+28 silly addNameRange     '1.1.2',
+28 silly addNameRange     '1.1.4',
+28 silly addNameRange     '1.1.5',
+28 silly addNameRange     '1.1.6',
+28 silly addNameRange     '1.2.0',
+28 silly addNameRange     '1.2.1',
+28 silly addNameRange     '1.2.2',
+28 silly addNameRange     '1.3.0',
+28 silly addNameRange     '1.3.1',
+28 silly addNameRange     '1.3.2',
+28 silly addNameRange     '1.3.3',
+28 silly addNameRange     '1.4.0-b1',
+28 silly addNameRange     '1.4.0-b2',
+28 silly addNameRange     '1.4.0-b3',
+28 silly addNameRange     '1.4.0-b4',
+28 silly addNameRange     '1.4.0',
+28 silly addNameRange     '1.4.1',
+28 silly addNameRange     '1.4.2',
+28 silly addNameRange     '1.5.0-b1',
+28 silly addNameRange     '1.5.0-b2',
+28 silly addNameRange     '1.5.0-b3',
+28 silly addNameRange     '1.5.0-b4',
+28 silly addNameRange     '1.5.0',
+28 silly addNameRange     '1.5.1',
+28 silly addNameRange     '1.6.0',
+28 silly addNameRange     '1.6.1',
+28 silly addNameRange     '1.6.2',
+28 silly addNameRange     '1.6.3',
+28 silly addNameRange     '1.7.0',
+28 silly addNameRange     '1.7.1',
+28 silly addNameRange     '1.7.3',
+28 silly addNameRange     '1.7.4',
+28 silly addNameRange     '1.7.5',
+28 silly addNameRange     '2.0.0-b1',
+28 silly addNameRange     '2.0.0-b2',
+28 silly addNameRange     '2.0.0-b3',
+28 silly addNameRange     '2.0.0',
+28 silly addNameRange     '2.1.0',
+28 silly addNameRange     '2.1.1',
+28 silly addNameRange     '2.1.2',
+28 silly addNameRange     '2.2.0',
+28 silly addNameRange     '2.3.0',
+28 silly addNameRange     '2.3.1',
+28 silly addNameRange     '2.4.0',
+28 silly addNameRange     '2.5.0' ] ]
+29 verbose addNamed less@2.5.0
+30 silly addNamed semver.valid 2.5.0
+31 silly addNamed semver.validRange 2.5.0
+32 silly mapToRegistry name less
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/less
+36 verbose addRemoteTarball https://registry.npmjs.org/less/-/less-2.5.0.tgz not in flight; adding
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/less/-/less-2.5.0.tgz',
+37 verbose addRemoteTarball   '11d6d611586de6d5f808220649bc9bbfe7ad5e17' ]
+38 info retry fetch attempt 1 at 10:17:25 AM
+39 info attempt registry request try #1 at 10:17:25 AM
+40 http fetch GET https://registry.npmjs.org/less/-/less-2.5.0.tgz
+41 http fetch 200 https://registry.npmjs.org/less/-/less-2.5.0.tgz
+42 silly fetchAndShaCheck shasum 11d6d611586de6d5f808220649bc9bbfe7ad5e17
+43 verbose addTmpTarball C:\Users\Ana\AppData\Local\Temp\npm-6528-1a396edf\registry.npmjs.org\less\-\less-2.5.0.tgz not in flight; adding
+44 verbose addTmpTarball already have metadata; skipping unpack for less@2.5.0
+45 silly cache afterAdd less@2.5.0
+46 verbose afterAdd C:\Users\Ana\AppData\Roaming\npm-cache\less\2.5.0\package\package.json not in flight; writing
+47 verbose afterAdd C:\Users\Ana\AppData\Roaming\npm-cache\less\2.5.0\package\package.json written
+48 silly install resolved [ { name: 'less',
+48 silly install resolved     version: '2.5.0',
+48 silly install resolved     description: 'Leaner CSS',
+48 silly install resolved     homepage: 'http://lesscss.org',
+48 silly install resolved     author: { name: 'Alexis Sellier', email: 'self@cloudhead.net' },
+48 silly install resolved     contributors: [ [Object] ],
+48 silly install resolved     bugs: { url: 'https://github.com/less/less.js/issues' },
+48 silly install resolved     repository: { type: 'git', url: 'https://github.com/less/less.js.git' },
+48 silly install resolved     licenses: [ [Object] ],
+48 silly install resolved     bin: { lessc: './bin/lessc' },
+48 silly install resolved     main: 'index',
+48 silly install resolved     directories: { test: './test' },
+48 silly install resolved     jam: { main: './dist/less.js' },
+48 silly install resolved     browser: './dist/less.js',
+48 silly install resolved     engines: { node: '>=0.10.0' },
+48 silly install resolved     scripts: { test: 'grunt test' },
+48 silly install resolved     optionalDependencies:
+48 silly install resolved      { errno: '^0.1.1',
+48 silly install resolved        'graceful-fs': '^3.0.5',
+48 silly install resolved        'image-size': '~0.3.5',
+48 silly install resolved        mime: '^1.2.11',
+48 silly install resolved        mkdirp: '^0.5.0',
+48 silly install resolved        promise: '^6.0.1',
+48 silly install resolved        request: '^2.51.0',
+48 silly install resolved        'source-map': '^0.4.2' },
+48 silly install resolved     devDependencies:
+48 silly install resolved      { diff: '^1.0',
+48 silly install resolved        grunt: '^0.4.5',
+48 silly install resolved        'grunt-contrib-clean': '^0.6.0',
+48 silly install resolved        'grunt-contrib-concat': '^0.5.0',
+48 silly install resolved        'grunt-contrib-connect': '^0.9.0',
+48 silly install resolved        'grunt-contrib-jasmine': '^0.8.2',
+48 silly install resolved        'grunt-contrib-jshint': '^0.11.0',
+48 silly install resolved        'grunt-contrib-uglify': '^0.8.0',
+48 silly install resolved        'grunt-jscs': '^1.6.0',
+48 silly install resolved        'grunt-shell': '^1.1.1',
+48 silly install resolved        'grunt-browserify': '~3.5.0',
+48 silly install resolved        'jit-grunt': '^0.9.1',
+48 silly install resolved        'time-grunt': '^1.0.0',
+48 silly install resolved        'grunt-saucelabs': '^8.3.2' },
+48 silly install resolved     keywords:
+48 silly install resolved      [ 'compile less',
+48 silly install resolved        'css nesting',
+48 silly install resolved        'css variable',
+48 silly install resolved        'css',
+48 silly install resolved        'gradients css',
+48 silly install resolved        'gradients css3',
+48 silly install resolved        'less compiler',
+48 silly install resolved        'less css',
+48 silly install resolved        'less mixins',
+48 silly install resolved        'less',
+48 silly install resolved        'less.js',
+48 silly install resolved        'lesscss',
+48 silly install resolved        'mixins',
+48 silly install resolved        'nested css',
+48 silly install resolved        'parser',
+48 silly install resolved        'preprocessor',
+48 silly install resolved        'bootstrap css',
+48 silly install resolved        'bootstrap less',
+48 silly install resolved        'style',
+48 silly install resolved        'styles',
+48 silly install resolved        'stylesheet',
+48 silly install resolved        'variables in css',
+48 silly install resolved        'css less' ],
+48 silly install resolved     gitHead: '9b7021a309a9010b04ddc89d5fd86f1d2d0b3433',
+48 silly install resolved     dependencies:
+48 silly install resolved      { errno: '^0.1.1',
+48 silly install resolved        'graceful-fs': '^3.0.5',
+48 silly install resolved        'image-size': '~0.3.5',
+48 silly install resolved        mime: '^1.2.11',
+48 silly install resolved        mkdirp: '^0.5.0',
+48 silly install resolved        promise: '^6.0.1',
+48 silly install resolved        request: '^2.51.0',
+48 silly install resolved        'source-map': '^0.4.2' },
+48 silly install resolved     _id: 'less@2.5.0',
+48 silly install resolved     _shasum: '11d6d611586de6d5f808220649bc9bbfe7ad5e17',
+48 silly install resolved     _from: 'less@*',
+48 silly install resolved     _npmVersion: '2.5.1',
+48 silly install resolved     _nodeVersion: '0.12.1',
+48 silly install resolved     _npmUser: { name: 'agatronic', email: 'luke.a.page@gmail.com' },
+48 silly install resolved     maintainers: [ [Object], [Object] ],
+48 silly install resolved     dist:
+48 silly install resolved      { shasum: '11d6d611586de6d5f808220649bc9bbfe7ad5e17',
+48 silly install resolved        tarball: 'http://registry.npmjs.org/less/-/less-2.5.0.tgz' },
+48 silly install resolved     _resolved: 'https://registry.npmjs.org/less/-/less-2.5.0.tgz' } ]
+49 info install less@2.5.0 into C:\Program Files\nodejs
+50 info installOne less@2.5.0
+51 verbose installOne of less to C:\Program Files\nodejs not in flight; installing
+52 verbose lock using C:\Users\Ana\AppData\Roaming\npm-cache\_locks\less-dad79b49885ede54.lock for C:\Program Files\nodejs\node_modules\less
+53 silly install write writing less 2.5.0 to C:\Program Files\nodejs\node_modules\less
+54 silly cache addNamed cb less@2.5.0
+55 verbose unbuild node_modules\less
+56 silly gentlyRm C:\Program Files\nodejs\node_modules\less is being purged from base C:\Program Files\nodejs
+57 verbose gentlyRm don't care about contents; nuking C:\Program Files\nodejs\node_modules\less
+58 verbose tar unpack C:\Users\Ana\AppData\Roaming\npm-cache\less\2.5.0\package.tgz
+59 verbose tar unpacking to C:\Program Files\nodejs\node_modules\less
+60 silly gentlyRm C:\Program Files\nodejs\node_modules\less is being purged
+61 verbose gentlyRm don't care about contents; nuking C:\Program Files\nodejs\node_modules\less
+62 silly gunzTarPerm modes [ '777', '666' ]
+63 error tar.unpack untar error C:\Users\Ana\AppData\Roaming\npm-cache\less\2.5.0\package.tgz
+64 verbose unlock done using C:\Users\Ana\AppData\Roaming\npm-cache\_locks\less-dad79b49885ede54.lock for C:\Program Files\nodejs\node_modules\less
+65 verbose fstream_path C:\Program Files\nodejs\node_modules\less
+66 verbose fstream_type Directory
+67 verbose fstream_class DirWriter
+68 verbose stack Error: EPERM, mkdir 'C:\Program Files\nodejs\node_modules\less'
+68 verbose stack     at Error (native)
+69 verbose fstream_stack C:\Program Files\nodejs\node_modules\npm\node_modules\fstream\lib\dir-writer.js:36:23
+69 verbose fstream_stack C:\Program Files\nodejs\node_modules\npm\node_modules\mkdirp\index.js:46:53
+69 verbose fstream_stack FSReqWrap.oncomplete (fs.js:99:15)
+70 verbose cwd C:\Users\Ana\Desktop\ana prvi sajt
+71 error Windows_NT 6.3.9600
+72 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "less"
+73 error node v0.12.0
+74 error npm  v2.7.3
+75 error path C:\Program Files\nodejs\node_modules\less
+76 error code EPERM
+77 error errno -4048
+78 error Error: EPERM, mkdir 'C:\Program Files\nodejs\node_modules\less'
+78 error     at Error (native)
+78 error  { [Error: EPERM, mkdir 'C:\Program Files\nodejs\node_modules\less']
+78 error   errno: -4048,
+78 error   code: 'EPERM',
+78 error   path: 'C:\\Program Files\\nodejs\\node_modules\\less',
+78 error   fstream_type: 'Directory',
+78 error   fstream_path: 'C:\\Program Files\\nodejs\\node_modules\\less',
+78 error   fstream_class: 'DirWriter',
+78 error   fstream_stack:
+78 error    [ 'C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\fstream\\lib\\dir-writer.js:36:23',
+78 error      'C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\mkdirp\\index.js:46:53',
+78 error      'FSReqWrap.oncomplete (fs.js:99:15)' ] }
+79 error Please try running this command again as root/Administrator.
+80 verbose exit [ -4048, true ]
+81 verbose unbuild node_modules\less
+82 silly gentlyRm C:\Program Files\nodejs\node_modules\less is being purged from base C:\Program Files\nodejs
+83 verbose gentlyRm don't care about contents; nuking C:\Program Files\nodejs\node_modules\less

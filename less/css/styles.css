@@ -1,0 +1,105 @@
+.Bolder {
+  font-weight: bolder;
+}
+.TextCenter {
+  text-align: center;
+}
+body {
+  color: #1b2383;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+#bojatekst a {
+  color: #1b2383;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+  font-weight: bolder;
+  font-size: large;
+}
+#brandlink-prvastrana {
+  color: #1b2383;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+  font-weight: bolder;
+  font-size: 32px;
+  font-style: italic;
+}
+#obeogradu,
+#znamenitosti,
+#slikebgd {
+  font-weight: bolder;
+  text-align: center;
+  padding: 80px;
+}
+#znamcont h3 {
+  font-weight: bolder;
+  text-align: center;
+  padding: 30px;
+}
+#forma,
+#linkback,
+#maus {
+  text-align: center;
+}
+#head {
+  background-image: url("../img/img%201%20-%20Copy.jpg");
+  color: #ffffff;
+}
+#but {
+  background-color: rgba(163, 127, 240, 0.3);
+  border-color: #704cbd;
+  border-style: solid;
+  border-width: thick;
+  color: #ffffff;
+}
+#forma {
+  padding: 80px;
+}
+#linkback,
+#maus {
+  padding: 30px;
+}
+#znamcont {
+  color: red;
+}
+#znamcont #znamenitosti {
+  color: #1b2383;
+}
+#znamcont p {
+  color: green;
+}
+body a {
+  text-decoration: none;
+  color: #1b2383;
+  font-weight: bolder;
+}
+body a:hover {
+  text-decoration: none;
+  color: #ff9ee3;
+}
+/*karusel css */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  height: auto;
+  line-height: 1;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.carousel-caption {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.carousel-caption h3 {
+  color: #fbfbfb;
+  text-shadow: 1px 1px #000000;
+  font-weight: bold;
+}
+#linija {
+  height: 20px;
+  background: url(../img/horizontal-rule-ornamental-2-black.png);
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#head {
+  background-image: url("../img/img 1-copy.jpg");
+}

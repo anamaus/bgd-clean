@@ -1,0 +1,138 @@
+@defaultFontColor: rgba(27, 35, 131, 1.00);
+@white: #ffffff;
+@defaultFontFamily: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+.Bolder {
+  font-weight: bolder;
+}
+
+.TextCenter {
+  text-align: center;
+}
+
+@defaultPadding: 30px;
+.Padding(@padding:@defaultPadding) {
+  padding: @padding;
+}
+
+body {
+  color: @defaultFontColor;
+  font-family: @defaultFontFamily;
+}
+
+#bojatekst a {
+  color: @defaultFontColor;
+  font-family: @defaultFontFamily;
+  .Bolder;
+  font-size: large
+}
+
+#brandlink-prvastrana {
+  color: @defaultFontColor;
+  font-family: @defaultFontFamily;
+  .Bolder;
+  font-size: 32px;
+  font-style: italic;
+}
+
+#obeogradu, #znamenitosti, #slikebgd {
+  .Bolder;
+  .TextCenter;
+  .Padding(80px);
+}
+
+#znamcont h3 {
+  .Bolder;
+  .TextCenter;
+  .Padding;
+}
+
+#forma, #linkback, #maus {
+  .TextCenter;
+}
+
+#head {
+  background-image: url("../img/img%201%20-%20Copy.jpg");
+  color: @white;
+}
+
+@defaultBorder: 2px solid @white;
+.BorderWhite(@border:@defaultBorder) {
+  border: @border;
+}
+
+#but {
+  background-color: @bgFaded;
+  border-color: @borderColor;
+  border-style: solid;
+  border-width: thick;
+  color: @white;
+}
+
+#forma {
+  .Padding(80px);
+}
+
+#linkback, #maus {
+  .Padding;
+}
+
+#znamcont {
+  color: red;
+  #znamenitosti {
+    color: @defaultFontColor;
+  }
+  p {
+    color: green;
+  }
+}
+
+@bgColor: #a37ff0;
+@borderColor: @bgColor - #333;
+@bgFaded: fadeout(@bgColor, 70%);
+@hoverColor: @defaultFontColor + #699;
+body a {
+  text-decoration: none;
+  color: @defaultFontColor;
+  .Bolder;
+  &:hover {
+    text-decoration: none;
+    color: @newHover;
+  }
+
+}
+
+@newHover: spin(@hoverColor, 100);
+
+/*karusel css */
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  display: block;
+  height: auto;
+  line-height: 1;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.carousel-caption {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carousel-caption h3 {
+  color: rgba(251, 251, 251, 1.00);
+  text-shadow: 1px 1px rgba(0, 0, 0, 1.00);
+  font-weight: bold;
+}
+
+#linija {
+  height: 20px;
+  background: url(../img/horizontal-rule-ornamental-2-black.png);
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#head {
+  background-image: url("../img/img 1-copy.jpg");
+
+}
