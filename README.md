@@ -1,3 +1,4 @@
 # bgd-clean
-bgd clean, exercise,
-open only bgd clean
+first web development exercise, kept here only for sentimental reasons :)
+
+
